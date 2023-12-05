@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: go-app
-          image: bfminusluca/argo-ghcr-code
+          image: bf-luca/argo-ghcr-code
           imagePullPolicy: Always
           ports:
             - containerPort: 80
