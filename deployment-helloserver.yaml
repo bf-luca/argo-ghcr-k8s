@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   name: go-app-helloserver
 spec:
+  namespace: argocd
   replicas: 3
   selector:
     matchLabels:
