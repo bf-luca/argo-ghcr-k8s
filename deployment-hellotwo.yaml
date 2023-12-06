@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: go-app-hellotwo
-          image: ghcr.io/bf-luca/argo-ghcr-code-hellotwo:9932505fbee85c7cec65b4c1acd45fc311410586
+          image: ghcr.io/bf-luca/argo-ghcr-code-hellotwo:486b112d05e1c5615e53cd49ce59643fbc383f2b
           imagePullPolicy: Always
           ports:
             - containerPort: 80
